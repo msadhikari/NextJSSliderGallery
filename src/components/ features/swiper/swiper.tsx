@@ -50,7 +50,7 @@ const Carousel: React.FC<CarouselProps> = ({ header, buttonText, buttonHref }) =
         }
       >
         {casinoSlides.map((slide, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={slide.id}>
             <Box className="card-container">
               <Image
                 src={slide.imagePath}

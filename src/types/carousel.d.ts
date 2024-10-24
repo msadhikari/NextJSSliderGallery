@@ -7,6 +7,7 @@ export interface CarouselProps {
 }
 
 export interface CasinoSlideData {
+  id:number,
   imagePath: string;
   description: string;
   badge: ReactNode;
