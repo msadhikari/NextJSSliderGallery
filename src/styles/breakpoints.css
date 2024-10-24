@@ -1,0 +1,44 @@
+:root {
+  --breakpoint-xs: 575.98px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+}
+
+@media (max-width: var(--breakpoint-xs)) {
+  .respond-to-xs {
+    content: '';
+  }
+}
+
+@media (min-width: var(--breakpoint-sm)) and (max-width: var(--breakpoint-xs)) {
+  .respond-to-sm {
+    content: '';
+  }
+}
+
+@media (min-width: var(--breakpoint-md)) and (max-width: var(--breakpoint-sm)) {
+  .respond-to-md {
+    content: '';
+  }
+}
+
+@media (min-width: var(--breakpoint-lg)) and (max-width: var(--breakpoint-md)) {
+  .respond-to-lg {
+    content: '';
+  }
+}
+
+@media (min-width: var(--breakpoint-xl)) and (max-width: var(--breakpoint-lg)) {
+  .respond-to-xl {
+    content: '';
+  }
+}
+
+@media (min-width: var(--breakpoint-xxl)) {
+  .respond-to-xxl {
+    content: '';
+  }
+}
